@@ -1,6 +1,7 @@
 # Pythonコーディング規約
 
 - [ruffの使用](#ruffの使用)
+- [blackの使用](#blackの使用)
 - [Docstringについて](#Docstringについて)
 - [命名規則](#命名規則)
 - [命名ガイド](#命名ガイド)
@@ -26,6 +27,20 @@
 - [PyCharmのruff設定](https://docs.astral.sh/ruff/editor-integrations/#pycharm-external-tool)
 - [VSCodeのruff設定](https://docs.astral.sh/ruff/editor-integrations/#vs-code-official)
 - [Vimのruff設定](https://docs.astral.sh/ruff/editor-integrations/#vim-neovim)
+
+## blackの使用
+
+- 自身の使用しているエディタに [black](https://black.readthedocs.io/en/stable/) を使用する。
+
+### 理由
+
+- 自動整形により、コードを綺麗に保つ。
+
+### エディタの設定方法
+
+- [PyCharmのblack設定](https://black.readthedocs.io/en/stable/integrations/editors.html#pycharm-intellij-idea)
+- [VSCodeのblack設定](https://black.readthedocs.io/en/stable/integrations/editors.html#visual-studio-code)
+- [Vimのblack設定](https://black.readthedocs.io/en/stable/integrations/editors.html#vim)
 
 ## Docstringについて
 
