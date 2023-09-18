@@ -1,1 +1,1 @@
-# conventions
+# コーディング規約
